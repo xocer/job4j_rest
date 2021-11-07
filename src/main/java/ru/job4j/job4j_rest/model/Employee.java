@@ -16,6 +16,6 @@ public class Employee {
     private String surname;
     private int inn;
     private LocalDate hiringDate;
-    @OneToMany(fetch = FetchType.EAGER)
+    @OneToMany()
     private List<Person> accounts;
 }
